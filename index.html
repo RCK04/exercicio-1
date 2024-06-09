@@ -3,47 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio de Front-end</title>
+    <title>Delicious Burger</title>
     <link rel="icon" href="./src/images/favicon.ico" type="image/icon">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <header class="header">
         <div id="logo">
             <img class="img-logo" src="./src/images/pikaso_texttoimage_Minimalist-vector-graphic-logo-with-a-simple-silho-removebg-preview.png" alt="logo">
         </div>
-        <h1>Delicious Burger</h1>
-        <nav>
-            <ul>
+
+        <nav class="navigation-menu">
+            <ul class="list">
                 <li><a href="">Menu Item 1</a></li>
                 <li><a href="">Menu Item 2</a></li>
                 <li><a href="">Menu Item 3</a></li>
                 
             </ul>
+            <div class="hamburger-menu">
+                <img class="hamburger-icon" src="./src/images/menu-hamburger.png">
+            </div>
         </nav>
     </header>
 
     <main>
         <section id="hero">
+            <div class="text-hero">
+                <h1>Tudo sobre hamburger</h1>
+            </div>
             <img src="./src/images/main-hamburger.jpg" alt="Hero Image">
         </section>
 
         <section id="gallery">
             <div class="gallery-item">
-                <img src="burger-fries-1.jpg" alt="Burger and Fries 1">
+                <img src="./src/images/hamburger-1.jpg" alt="Hamburger">
             </div>
 
             <div class="gallery-item">
-                <img src="burger-fries-2.jpg" alt="Burger and Fries 2">
+                <img src="./src/images/hamburger-2.jpg" alt="Hamburger and Fries">
             </div>
 
             <div class="gallery-item">
-                <img src="burger-fries-3.jpg" alt="Burger and Fries 3">
+                <img src="./src/images/hamburger-3.jpg" alt="Hamburger">
             </div>
 
             <div class="gallery-item">
-                <img src="burger-fries-4.jpg" alt="Burger and Fries 4">
+                <img src="./src/images/hamburger-4.jpg" alt="Burger and Fries">
             </div>
         </section>
         
@@ -58,6 +65,6 @@
     </footer>
 
     
-    
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
