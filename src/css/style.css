@@ -67,3 +67,13 @@
 .navigation-menu .list.show li {
     margin-bottom: 10px;
 }
+
+#about{
+    text-align: center;
+}
+
+footer{
+    background-color: #2f190e;
+    color: #ffff;
+    padding: 10px;
+}
