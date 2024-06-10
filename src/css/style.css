@@ -1,27 +1,40 @@
 .header {
-    background-color: #2f190e;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     padding: 10px 20px;
-    color: #ffff;
+    width: 100vw;
 }
 
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header #logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header #logo a, #hero .text-hero{
+    font-family: "Alfa Slab One", serif;
+
+}
+
+
 .header #logo .img-logo{
-    width: 150px;
+    width: 120px;
 }
 
 .header .navigation-menu .list{
     gap: 20px;
     display: none;
     list-style: none;
+    font-family: "Poppins", sans-serif;
 
-}
-
-.header .navigation-menu .list a{
-    color: #ffff;
-    text-decoration: none;
 }
 
 .hamburger-menu {
@@ -35,16 +48,73 @@
 
 #hero img{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 
-#gallery .gallery-item img{
+.section-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+#gallery{
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "large large small1"
+    "large large small2"
+    ;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 600px;
+    text-transform: uppercase;
+
+}   
+
+#gallery .gallery-item{
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
     width: 100%;
+    height: 100%;
+}
+
+#gallery .gallery-item:nth-child(1){
+
+    grid-area: large;
+    background-image: url("../images/hamburger-1.png");
+}
+
+#gallery .gallery-item:nth-child(2){
+    width: 600px;
+    grid-area: small1;
+    background-image: url("../images/hamburger-2.jpeg");
+}
+
+#gallery .gallery-item:nth-child(3){
+
+    grid-area: small2;
+    background-image: url("../images/hamburger-3.jpg");
+}
+
+#gallery .gallery-item p{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+#gallery .gallery-item h4{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
 }
 
 #hero .text-hero{   
     width: 450px;
-    font-size: 32px;
+    font-size: 2rem;
     text-transform: uppercase;
     position: absolute;
     top: 50%;
@@ -66,6 +136,10 @@
 
 .navigation-menu .list.show li {
     margin-bottom: 10px;
+}
+
+.navigation-menu .list a:hover{
+    color: red;
 }
 
 #about{

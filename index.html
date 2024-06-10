@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Burger</title>
     <link rel="icon" href="./src/images/favicon.ico" type="image/icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/root.css">
 </head>
 <body>
     <header class="header">
         <div id="logo">
-            <img class="img-logo" src="./src/images/pikaso_texttoimage_Minimalist-vector-graphic-logo-with-a-simple-silho-removebg-preview.png" alt="logo">
+            <a href="#">
+                <img class="img-logo" src="./src/images/pikaso_texttoimage_Minimalist-vector-graphic-logo-with-a-simple-silho-removebg-preview.png" alt="logo">
+                <span>Delicious Burger</span>
+            </a>
         </div>
 
         <nav class="navigation-menu">
@@ -20,7 +27,7 @@
                 <li><a href="">Menu Item 1</a></li>
                 <li><a href="">Menu Item 2</a></li>
                 <li><a href="">Menu Item 3</a></li>
-                
+
             </ul>
             <div class="hamburger-menu">
                 <img class="hamburger-icon" src="./src/images/menu-hamburger.png">
@@ -36,22 +43,25 @@
             <img src="./src/images/main-hamburger.jpg" alt="Hero Image">
         </section>
 
-        <section id="gallery">
+        <section class="section-container" id="gallery">
             <div class="gallery-item">
-                <img src="./src/images/hamburger-1.jpg" alt="Hamburger">
+                <p>Venha provar hoje</p>
+                <h4>Hamburger mais pedido</h4>
+               
             </div>
 
             <div class="gallery-item">
-                <img src="./src/images/hamburger-2.jpg" alt="Hamburger and Fries">
+                <p>Venha provar hoje</p>
+                <h4>Venhar provar<br>Nosso combo</h4>
+                
             </div>
 
             <div class="gallery-item">
-                <img src="./src/images/hamburger-3.jpg" alt="Hamburger">
+                <p>Venha provar hoje</p>
+                <h4>Melhor da região</h4>
+              
             </div>
 
-            <div class="gallery-item">
-                <img src="./src/images/hamburger-4.jpg" alt="Burger and Fries">
-            </div>
         </section>
         
         <section id="about">

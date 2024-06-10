@@ -1,9 +1,41 @@
 @media screen and (max-width: 768px) {
+    .header{
+        position: fixed;
+        z-index: 1;
+    }
+
     .navigation-menu .list{
         display: none;
+        align-items: center;
     }
-    
+ 
     .hamburger-menu {
         display: block;
+    }
+
+    #hero .text-hero{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 286px){
+    .header #logo a span{
+        display: none;
+    }
+
+    #hero .text-hero{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 342px){
+    #hero .text-hero{
+        width: 10vw;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .header .navigation-menu .list{
+        display: flex;
     }
 }
