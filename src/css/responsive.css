@@ -16,6 +16,31 @@
     #hero .text-hero{
         font-size: 28px;
     }
+
+    #gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gallery .gallery-item{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    #gallery .gallery-item p{
+        font-size: 1rem;
+    }
+
+    #gallery .gallery-item h4{
+        font-size: 1.5rem;
+    }
+
+    #about{
+        margin-top: 200px;
+    }
 }
 
 @media screen and (max-width: 286px){
