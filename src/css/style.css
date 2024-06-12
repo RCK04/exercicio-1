@@ -52,7 +52,7 @@ a{
 }
 
 .section-container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     padding: 5rem 1rem;
 }
@@ -77,8 +77,6 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
-    width: 100%;
-    height: 100%;
     font-family: "Poppins", sans-serif;
     color: var(--white);
 }
@@ -96,6 +94,10 @@ a{
 #gallery .gallery-item:nth-child(3){
     grid-area: small2;
     background-image: url("../images/hamburger-3.jpg");
+}
+
+#gallery .gallery-item p, #gallery .gallery-item h4{
+    width: 300px;
 }
 
 #gallery .gallery-item p{
