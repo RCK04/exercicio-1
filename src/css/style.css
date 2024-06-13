@@ -63,8 +63,6 @@ a{
     "large large small1"
     "large large small2"
     ;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
     height: 600px;
     text-transform: uppercase;
 
