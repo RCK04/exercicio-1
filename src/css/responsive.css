@@ -37,9 +37,10 @@
         font-size: 1.5rem;
     }
 
-    #about, .most-requested{
-        margin-top: 200px;
+    .order-container{
+        margin-top: 300px;
     }
+
 }
 
 @media screen and (max-width: 286px){
@@ -62,4 +63,14 @@
     .header .navigation-menu .list{
         display: flex;
     }
+
+    .most-requested {
+        grid-template-columns: repeat(2, 1fr);
+      }
 }
+
+@media (width > 1024px) {
+    .most-requested {
+      gap: 2rem;
+    }
+  }
