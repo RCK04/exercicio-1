@@ -154,10 +154,10 @@ a{
 }
 
 #hero .text-hero{   
-    width: 450px;
+    width: 500px;
     font-size: 2rem;
     text-transform: uppercase;
-    margin-left: 100px;
+    margin-left: 40px;
     color: var(--white);
 }
 
