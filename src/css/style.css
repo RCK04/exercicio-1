@@ -84,7 +84,7 @@ a{
 
 #hero{
     background-image: url("../images/background-header.png");
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -94,7 +94,7 @@ a{
 }
 
 .image-area img{
-    max-width: 600px;
+    width: 100%;
 }
 
 .section-container {

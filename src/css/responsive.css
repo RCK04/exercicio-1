@@ -29,9 +29,16 @@
         display: block;
     }
 
+    #hero{
+        margin-top: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     #hero .text-hero{
         font-size: 28px;
     }
+
 
     #gallery{
         display: flex;
@@ -42,7 +49,11 @@
 
     #gallery .gallery-item{
         width: 100%;
-        height: 50%;
+        height: 45%;
+    }
+
+    #gallery .gallery-item:last-child{
+        display: none;
     }
 
     #gallery .gallery-item p{
@@ -51,10 +62,6 @@
 
     #gallery .gallery-item h4{
         font-size: 1.5rem;
-    }
-
-    .order-container{
-        margin-top: 300px;
     }
 
 }
