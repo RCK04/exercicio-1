@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #000;
+    --primary-color: #090909;
     --white: #f1f1f1;
     --bg-header: #ff8c00;
-    --button-requested-bg: #f63131;
     --contrast: #ffc71f;
+    --text-dark: #212529;
 }   

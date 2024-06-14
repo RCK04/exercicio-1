@@ -195,7 +195,7 @@ a{
     padding: 1rem 1.5rem;
     font-size: 1rem;
     color: var(--white);
-    background-color: var(--button-requested-bg);
+    background-color: var(--bg-header);
     transition: 0.3s;
 }
 
@@ -234,7 +234,7 @@ a{
     position: absolute;
     top: 100px;
     left: 0;
-    background-color: #2f190e;
+    background-color: var(--primary-color);
     width: 100%;
     padding: 20px;
 }
@@ -266,7 +266,7 @@ a{
 
 
 footer{
-    background-color: #2f190e;
-    color: #ffff;
+    background-color: var(--primary-color);
+    color: var(--white);
     padding: 10px;
 }
