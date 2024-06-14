@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function(){
     let navigationMenu = document.querySelector(".navigation-menu .list");
 
     hamburgerMenu.addEventListener("click", function(){
-        navigationMenu.classList.toggle("show")  
+        navigationMenu.classList.toggle("show");
     })
 })
