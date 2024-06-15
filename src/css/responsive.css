@@ -24,6 +24,10 @@
         display: none;
         align-items: center;
     }
+
+    .navigation-menu .list li{
+        padding: 10px 0;
+    }
  
     .hamburger-menu {
         display: block;
@@ -63,6 +67,25 @@
         font-size: 1.5rem;
     }
 
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navigation-menu {
+        margin-top: 10px;
+    }
+
+    .navigation-menu .list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 408px){
