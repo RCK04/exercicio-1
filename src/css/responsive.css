@@ -15,11 +15,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header{
-        position: fixed;
-        z-index: 1;
-    }
-
     .navigation-menu .list{
         display: none;
         align-items: center;
