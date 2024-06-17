@@ -30,7 +30,6 @@
     }
 
     #hero{
-        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -87,6 +86,15 @@
     .hamburger-menu, .buy-btn-container{
         z-index: 1;
     }
+
+    .text-hero{
+        max-width: 50px;
+    }
+
+    .image-area {
+        z-index: 1;
+    }
+
 }
 
 @media screen and (max-width: 408px){
