@@ -1,11 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(){
-    let hamburgerMenu =  document.querySelector(".hamburger-menu");
-    let navigationMenu = document.querySelector(".navigation-menu .list");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const navigationMenu = document.querySelector(".navigation-menu .list");
 
-    hamburgerMenu.addEventListener("click", function(){
-        navigationMenu.classList.toggle("show");
-    })
-})
+hamburgerMenu.addEventListener("click", function(){
+    navigationMenu.classList.toggle("show");
+});
 
 const revealItem = {
     distance: "40px",
