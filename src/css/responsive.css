@@ -15,11 +15,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header{
-        position: fixed;
-        z-index: 10;
-    }
-
     .navigation-menu .list{
         display: none;
         align-items: center;
@@ -36,7 +31,6 @@
 
     #hero{
         justify-content: space-between;
-        padding-top: 100px;
     }
 
     #hero .text-hero{
