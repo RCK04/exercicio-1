@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
 }
+
 .header {
     background: url("../images/background-header.png") center no-repeat;
     background-size: cover;
@@ -79,12 +80,12 @@ a{
 
 }
 
-.hamburger-menu {
+.hamburger-menu, .close-icon {
     display: none;
     cursor: pointer;
 }
 
-.hamburger-icon {
+.hamburger-icon, .close-icon {
     width: 25px;
 }
 
