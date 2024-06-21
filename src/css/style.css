@@ -2,7 +2,8 @@ body{
     overflow-x: hidden;
 }
 .header {
-    background-color: var(--primary-color);
+    background: url("../images/background-header.png") center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +15,7 @@ body{
 
 a{
     color: var(--white);
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -41,6 +43,7 @@ a{
     gap: 20px;
     display: none;
     list-style: none;
+
 }
 
 .header .navigation-menu .list li a{
@@ -55,7 +58,7 @@ a{
 }
 
 .navigation-menu .buy-btn-container{
-    margin-right: 4rem;
+    margin-right: 2.5rem;
 }
 
 .navigation-menu, .buy-btn-container .btn{
