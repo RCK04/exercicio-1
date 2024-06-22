@@ -90,16 +90,16 @@
 
     }
 
-    .hamburger-menu, .buy-btn-container{
-        z-index: 1;
-    }
-
     .text-hero{
         max-width: 50px;
     }
 
-    .image-area {
+    #hero .image-area {
         z-index: 1;
+    }
+
+    #hero .image-area img{
+        width: 275px;
     }
 
 }
@@ -108,11 +108,13 @@
     .order-card img{
         width: 100%;
     }
-}
 
-@media screen and (max-width: 342px){
-    #hero .text-hero{
-        display: none;
+    #hero{
+        justify-content: center;
+    }
+
+    .order-container h2{
+        font-size: 2rem;
     }
 }
 
@@ -120,8 +122,8 @@
     .header #logo a span{
         display: none;
     }
-
-    #hero .text-hero{
-        display: none;
+    #hero .image-area img{
+        width: 250px;
     }
+
 }

@@ -38,6 +38,8 @@ const revealItem = {
 
   ScrollReveal().reveal(".first-item", {
     ...revealItem,
+    distance: "300px",
+    origin: "left",
     rotate: {
         z: 20,
     },
