@@ -15,7 +15,7 @@ const revealItem = {
     distance: "40px",
     origin: "right",
     duration: 1000,
-  };
+};
 
   ScrollReveal().reveal(".image-area img", {
     ...revealItem,
