@@ -31,6 +31,7 @@
 
     #hero{
         justify-content: space-between;
+      
     }
 
     #hero .text-hero{
@@ -69,6 +70,7 @@
     .navigation-menu .buy-btn-container .btn{
         padding: 0.75rem;
     }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -93,6 +95,8 @@
     .text-hero{
         max-width: 50px;
     }
+
+
 
     #hero .image-area {
         z-index: 1;

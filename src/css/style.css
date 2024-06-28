@@ -280,6 +280,7 @@ footer{
 }
 
 footer .footer-info{
+
 }
 
 .footer-info .top-container, .footer-info .bottom-container{
@@ -293,4 +294,11 @@ footer .footer-info{
     align-items: center;
     margin-bottom: 1.5rem;
 
+}
+
+.footer-info .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
