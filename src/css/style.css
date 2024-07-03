@@ -290,7 +290,7 @@ footer .footer-info{
 
 .footer-info .center-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 1.5rem;
 
@@ -301,4 +301,8 @@ footer .footer-info{
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.footer-info .contact img{
+    width: 2rem;
 }
