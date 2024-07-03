@@ -274,33 +274,35 @@ h2{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--white);
     padding: 0.5rem;
 }
 
-footer .footer-info{
 
-}
 
 .footer-info .top-container, .footer-info .bottom-container{
     text-align: center;
     padding: 0.5rem;
 }
 
-.footer-info .center-container{
+.footer-info .center-container{ 
     display: flex;
-    justify-content: space-evenly;
+    gap: 200px;
     align-items: center;
+    justify-content: space-between;
+
     margin-bottom: 1.5rem;
 
 }
 
-.footer-info .contact{
+.footer-info .center-container .contact{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 20px;
+
 }
 
 .footer-info .contact img{
