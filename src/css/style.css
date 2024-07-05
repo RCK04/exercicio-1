@@ -85,6 +85,41 @@ h2{
     width: 25px;
 }
 
+.navigation-menu .list.show{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 20px;
+}
+
+.navigation-menu .list.show li {
+    margin-bottom: 10px;
+}
+
+.navigation-menu .list a:hover{
+    color: var(--bg-header);
+    transition: 0.3s;
+}
+
+.navigation-menu .list a:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;    
+    height: 1px;
+    background-color: var(--bg-header);
+}
+
+.buy-btn-container .btn:hover{
+    background-position: 100% 0%;
+    color: var(--primary-color);
+}
+
 #hero{
     background-image: url("../images/background-header.png");
     background-position: center;
@@ -236,41 +271,6 @@ h2{
     font-weight: 500;
     color: var(--text-dark);
     line-height: 1.75rem;
-}
-
-.navigation-menu .list.show{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    background-color: var(--primary-color);
-    width: 100%;
-    padding: 20px;
-}
-
-.navigation-menu .list.show li {
-    margin-bottom: 10px;
-}
-
-.navigation-menu .list a:hover{
-    color: var(--bg-header);
-    transition: 0.3s;
-}
-
-.navigation-menu .list a:hover::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;    
-    height: 1px;
-    background-color: var(--bg-header);
-}
-
-.buy-btn-container .btn:hover{
-    background-position: 100% 0%;
-    color: var(--primary-color);
 }
 
 footer{
