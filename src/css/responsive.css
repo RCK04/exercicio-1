@@ -63,6 +63,15 @@
         font-size: 1.5rem;
     }
 
+    footer .row .col{
+        flex-basis: 100%;
+
+    }
+    
+    footer .row .col:nth-child(2), footer .row .col:nth-child(3){
+        flex-basis: 100%;
+    }
+
 
 }
 
