@@ -95,9 +95,9 @@
     .navigation-menu .list {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        padding: 0;
         margin-top: 45px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
 
     }
 
